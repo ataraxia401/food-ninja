@@ -112,8 +112,35 @@
       </div>
     </form>
   </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
 
-  <script src="/js//app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script> -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDC1bmDUIn9uayGdZ2IgzvF9HZGr8d4r7I",
+      authDomain: "food-ninja-pwa-3d64f.firebaseapp.com",
+      databaseURL: "https://food-ninja-pwa-3d64f.firebaseio.com",
+      projectId: "food-ninja-pwa-3d64f",
+      storageBucket: "food-ninja-pwa-3d64f.appspot.com",
+      messagingSenderId: "637253640329",
+      appId: "1:637253640329:web:7f3784548cca0476d26658",
+      measurementId: "G-X66HRSYTLQ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    // firebase.analytics();
+    const db =firebase.firestore()
+  </script>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/db.js"></script>
   <script src="/js/ui.js"></script>
 </body>
 
