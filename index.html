@@ -44,67 +44,66 @@
 		</li>
 	</ul>
 
-<<<<<<< HEAD
-	<!-- recipes -->
-	<div class="recipes container grey-text text-darken-1">
-		<h6 class="center">Ninja recipes</h6>
-		
-	</div>
+	<<<<<<< HEAD <!-- recipes -->
+		<div class="recipes container grey-text text-darken-1">
+			<h6 class="center">Ninja recipes</h6>
 
-	<div class="center">
-		<a class="btn-floating btn-small btn-large add-btn sidenav-trigger" data-target="side-form">
-			<i class="material-icons">add</i>
-		</a>
-	</div>
+		</div>
 
-	<!-- add recipe side nav -->
-	<div id="side-form" class="sidenav side-form">
-		<form class="add-recipe container section">
-			<h6>New Recipe</h6>
-			<div class="divider"></div>
-			<div class="input-field">
-				<input placeholder="e.g. Ninja soup" id="title" type="text" class="validate">
-				<label for="title">Recipe Title</label>
-			</div>
-			<div class="input-field">
-				<input placeholder="e.g. Tofu, mushroom, garlic" id="ingredients" type="text" class="validate">
-				<label for="ingredients">Ingredients</label>
-			</div>
-			<div class="input-field center">
-				<button class="btn-small">Add</button>
-			</div>
-		</form>
-	</div>
-	<!-- The core Firebase JS SDK is always required and must be listed first -->
-	<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+		<div class="center">
+			<a class="btn-floating btn-small btn-large add-btn sidenav-trigger" data-target="side-form">
+				<i class="material-icons">add</i>
+			</a>
+		</div>
+
+		<!-- add recipe side nav -->
+		<div id="side-form" class="sidenav side-form">
+			<form class="add-recipe container section">
+				<h6>New Recipe</h6>
+				<div class="divider"></div>
+				<div class="input-field">
+					<input placeholder="e.g. Ninja soup" id="title" type="text" class="validate">
+					<label for="title">Recipe Title</label>
+				</div>
+				<div class="input-field">
+					<input placeholder="e.g. Tofu, mushroom, garlic" id="ingredients" type="text" class="validate">
+					<label for="ingredients">Ingredients</label>
+				</div>
+				<div class="input-field center">
+					<button class="btn-small">Add</button>
+				</div>
+			</form>
+		</div>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
 
 
-	<!-- TODO: Add SDKs for Firebase products that you want to use
+		<!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-	<!-- <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script> -->
+		<!-- <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script> -->
 
-	<script>
-		// Your web app's Firebase configuration
-		var firebaseConfig = {
-			apiKey: "AIzaSyDC1bmDUIn9uayGdZ2IgzvF9HZGr8d4r7I",
-			authDomain: "food-ninja-pwa-3d64f.firebaseapp.com",
-			databaseURL: "https://food-ninja-pwa-3d64f.firebaseio.com",
-			projectId: "food-ninja-pwa-3d64f",
-			storageBucket: "food-ninja-pwa-3d64f.appspot.com",
-			messagingSenderId: "637253640329",
-			appId: "1:637253640329:web:7f3784548cca0476d26658",
-			measurementId: "G-X66HRSYTLQ"
-		};
-		// Initialize Firebase
-		firebase.initializeApp(firebaseConfig);
-		// firebase.analytics();
-		const db = firebase.firestore()
-	</script>
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+				apiKey: "AIzaSyDC1bmDUIn9uayGdZ2IgzvF9HZGr8d4r7I",
+				authDomain: "food-ninja-pwa-3d64f.firebaseapp.com",
+				databaseURL: "https://food-ninja-pwa-3d64f.firebaseio.com",
+				projectId: "food-ninja-pwa-3d64f",
+				storageBucket: "food-ninja-pwa-3d64f.appspot.com",
+				messagingSenderId: "637253640329",
+				appId: "1:637253640329:web:7f3784548cca0476d26658",
+				measurementId: "G-X66HRSYTLQ"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			// firebase.analytics();
+			const db = firebase.firestore()
+		</script>
 
-	<script src="/js/app.js"></script>
-	<script src="/js/db.js"></script>
-	<script src="/js/ui.js"></script>
+		<script src="/js/app.js"></script>
+		<script src="/js/db.js"></script>
+		<script src="/js/ui.js"></script>
 </body>
 
 </html>
